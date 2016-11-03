@@ -1,4 +1,4 @@
-﻿*{ margin:0; padding:0;}
+*{ margin:0; padding:0;}
 body{ font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", Arial, sans-serif; font-size:12px; color:#444; line-height:1.6em;}
 h1{line-height:1.3em;}
 a:hover img,img{ border:none;}
@@ -189,7 +189,7 @@ ul.r_list li{ clear:both; line-height:2.2em; height:2.2em; overflow:hidden; padd
 /*标题*/
 dl.h_r_th{ padding-bottom:4px; clear:both; width:93%; margin:10px auto; line-height:30px; height:30px; overflow:hidden; background:url(../images/th_line.gif) repeat-x left bottom;}
 dl.h_r_th dt{ padding:6px 5px 0 0; line-height:18px; height:18px; float:right;}
-dl.h_r_th dd{ padding-left:33px; background:url(../images/th_4.gif) no-repeat 5px center; float:left; font-size:16px;}
+dl.h_r_th dd{ padding-left:33px; background:url(../images/th_4.gif) no-repeat 5px center; float:left; font-size:16px;color:#0278c3}
 a.r_more{ display:block; background:url(../images/more_a.gif) no-repeat; width:18px; line-height:18px; height:18px; text-align:left; text-indent:-999999px;}
 a.r_more:hover{ background-position:left -18px;}
 /*-------star联系我们*/
@@ -468,7 +468,7 @@ div.page b{ color:#fff; background:#ff9900; border:1px solid #ff9900;}
     overflow: hidden;
     float: left;
     margin: 5px 12px 5px 5px;
-    border: 1px solid #ddd;
+    border: 1px solid #eee;
 }
 .sycxul li a{
     font-size: 14px;
@@ -488,7 +488,7 @@ div.page b{ color:#fff; background:#ff9900; border:1px solid #ff9900;}
   font-size:17px;
   text-align: center;
   line-height: 30px;
-  color: red;
+  color: #0278c3;
   background: url(../images/icon_g02.jpg) 5px center no-repeat;
 }
 .sycxul li a:hover {
@@ -588,4 +588,463 @@ div.page b{ color:#fff; background:#ff9900; border:1px solid #ff9900;}
     position: absolute;
     left: 0;
     top: 0;
-        }
+}
+
+
+
+.main{
+  width: 1000px;
+/*   height: 1115px; */
+  /* background-color: pink; */
+}
+.tab-one{
+  width: 1000px;
+  height: 350px;
+  /* margin-top: 25px; */
+}
+.tab-left{
+  float: left;
+  width: 360px;
+  height: 350px;
+  background-color:#fcfcfc;
+  border:1px solid #eee;
+  border-radius: 5px;
+}
+.tab-nav{
+  width: 100%;
+  height: 40px;
+  background-color: #eee;
+}
+.tab-left .tab-nav ul li{
+  float: left;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 15px;
+  // background-color:#eee;
+}
+.tab-left .tab-nav ul li a{
+  color:#0278c3;
+  // background-color:#eee;
+}
+.tab-left .tab-nav ul li.active{
+  background-color: #fff;
+  // border: 1px solid #ccc;
+  border-bottom: none;
+}
+.tab-nav ul li{
+  float: left;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 15px;
+  // background-color:#eee;
+}
+.tab-content{
+  width: 340px;
+  height: 310px;
+  margin: 0 auto;
+}
+
+.tab-left .tab-nav ul .active{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-top: 2px solid blue;
+}
+.tab-content ul li{
+  margin-top: 10px;
+  line-height: 25px;
+  font-size:12px ;
+  padding-right: 5px;
+}
+.tab-one .tab-center,.tab-two .tab-center1{
+  float: left;
+  width: 300px;
+  height: 350px;
+  margin-left: 10px;
+  position: relative;
+  border-radius: 5px;
+  border:1px solid #eee;
+  background-color:#fcfcfc;
+}
+.tab-center .tab-nav,.tab-center1 .tab-nav{
+  width: 300px;
+  height: 40px;
+  background-color: #eee;
+}
+.tab-inner{
+  width: 300px;
+  height: 310px;
+}
+.video-one img,.pic-one img{
+  width: 300px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.video-one .icon,.pic-one .icon{
+  width: 300px;
+  height: 30px;
+  background-color: #000;
+  opacity:0.5;
+  position: absolute;
+  left: 0;
+  top: 165px;
+}
+.video-one .icon p,.pic-one .icon p{
+
+  color: #fff;
+  line-height: 23px;
+}
+.video-one .icon img,.pic-one .icon img{
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin:3px 5px;
+}
+.pic-two,.video-two{
+  float: left;
+  width: 148px;
+  height: 150px;
+}
+.pic-two p img,.video-two p img{
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 313px;
+  left: 0;
+}
+.pic-two img,.pic-three img,.video-two img,.video-three img{
+  width: 148px;
+  height: 100px;
+}
+.pic-two p,.pic-three p,.video-two p,.video-three p{
+  padding: 5px 0 0 3px;
+}
+.pic-three,.video-three{
+  margin-left: 4px;
+  float: left;
+  width: 148px;
+  height: 150px;
+}
+.video-three p img,.pic-three p img{
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 313px;
+  left: 153px;
+}
+.tab-nav li.active {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-bottom: none;
+  border-top: 2px solid blue;
+}
+.tab-nav li:hover{
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-bottom: none;
+  border-top: 2px solid blue;
+} 
+.tab-nav li:hover a{
+  color: red;
+}
+.tab-center .tab-inner div{
+  display:block;
+}
+.tab-center .tab-inner div.selected{
+  display: none;
+}
+.tab-one .tab-right{
+  float: left;
+  width: 310px;
+  height: 350px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border:1px solid #eee;
+  background-color:#fcfcfc;
+}
+.tab-content-13{
+  width:285px;
+  overflow: hidden;
+}
+.tab-right .tab-nav,.tab-right1 .tab-nav{
+  width: 310px;
+  height: 40px;
+}
+.main .tab-nav ul li a{
+  text-decoration: none;
+}
+.main .tab-nav  ul li:hover a{
+  color: red;
+}
+.tab-right .tab-content ul li{
+  font-size: 12px;
+  line-height: 30px;
+}
+.tab-two{
+  width: 1000px;
+  height: 350px;
+  margin-top: 25px;
+}
+.tab-content div{
+  width: 310px;
+  height: 310px;
+   overflow: hidden;
+   display: none;
+}
+.tab-content div.selected{
+  display: block;
+}
+.tab-two .tab-left1,.tab-three .tab-left2{
+  float: left;
+  width: 360px;
+  height: 290px;
+  border-radius: 5px;
+  border:1px solid #eee;
+  background-color:#fcfcfc;
+}
+.tab-two .tab-center1,.tab-three .tab-center2{
+  float: left;
+  width: 300px;
+  height: 290px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border:1px solid #eee;
+  background-color:#fcfcfc;
+}
+.tab-two .tab-center1{
+  height: 350px;
+}
+.tab-right1,.tab-right2{
+  float: left;
+  width: 310px;
+  height: 350px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border:1px solid #eee;
+  background-color:#fcfcfc;
+}
+.tab-content1 .tab-pic1 img{
+  width: 310px;
+  height: 100px;
+}
+.newsShow ul li{
+  line-height: 40px;
+  font-size: 12px;
+}
+.news ul li{
+  padding-top: 10px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.news {
+  display: none;
+}
+.tab-three{
+  width: 1000px;
+  height: 300px;
+  margin-top: 25px;
+}
+.tab-left2 .message{
+  width: 360px;
+  height: 40px;
+  background-color: #eee;
+}
+.tab-left2 .message span,.tab-right2 span,.tab-center2 span{
+  display: block;
+  width: 85px;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 40px;
+  padding-left: 10px;
+  border: 1px solid #eee;
+  border-bottom: none;
+  border-top: 2px solid blue;
+}
+.tab-left2 .message span a,.tab-right2 span a,.tab-center2 span a{
+  font-size: 15px;
+  color: red;
+  text-decoration: none;
+}
+.message-tab{
+  padding-top: 10px;
+  width: 360px;
+  height:140px;
+}
+.message-cable{
+  width: 360px;
+  height: 150px;
+}
+.message-nav{
+  width: 360px;
+  height: 40px;
+  border-bottom: 2px solid blue;
+}
+.message-nav li.active{
+  background-color:#ddd;
+  position: relative;
+  color:#fff;
+}
+.message-nav li.active a{
+  // background-color:blue;
+  position: relative;
+}
+// .message-nav li:hover{
+//   color:#fff;
+// }
+// .message-nav li.active a{
+//   color: #fff;
+// }
+.message-nav ul li{
+  float: left;
+  width: 150px;
+  height: 40px;
+  text-align: center ;
+  line-height: 40px;
+  font-size: 14px;
+}
+.message-nav li::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: blue;
+    position: absolute;
+    left: 63px;
+    top: 42px;
+  }
+.message-nav ul li a{
+  text-decoration: none;
+  color: blue;
+}
+.message-inner{
+  width: 360px;
+  height: 80px;
+  padding-top: 35px;
+}
+.message-tab-one,.messsage-tab-two{
+  width: 355px;
+  height: 40px;
+  padding-left: 5px;
+ 
+}
+.message-tab-one ul li{
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 30px;
+}
+.messsage-tab-two ul li{
+    float: left;
+    width: 100px;
+    height: 30px;
+    margin-right: 18px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 30px;
+}
+.message-cable{
+  width: 360px;
+  height: 130px;
+}
+.message-cable img{
+  width: 170px;
+  height: 80px;
+  margin: 0 5px 0 2px;
+}
+// .message-nav li:hover a{
+//   color: #fff;
+// }
+.tab-right2{
+  width: 310px;
+  height: 40px;
+  background-color: #eee;
+}
+.participation{
+  width: 310px;
+  height: 115px;
+  padding-top: 20px;
+}
+.participation ul li{
+  line-height: 35px;
+}
+.service{
+  height: 310px;
+  height: 155px;
+}
+.service img{
+  margin:5px 15px 0 5px;
+  width: 130px;
+  height: 40px;
+}
+.tab-center2 .hander {
+  width: 300px;
+  height: 40px;
+  background-color: #eee;
+
+}
+.tab-center2 .item{
+  width: 300px;
+  height: 280px;
+}
+.tab-center2 .item .obj{
+  width: 300px;
+  height: 85px;
+  padding-top: 15px;
+}
+.item .obj ul li{
+  float: left;
+  margin-right: 10px;
+}
+.item .obj ul li.active{
+  border-bottom: 1px solid blue;
+  position: relative;
+}
+.item .obj ul li::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-color:#eee;
+    position: absolute;
+    left: 23px;
+    top: 65px;
+}
+.item-inner{
+  width: 300px;
+  height: 150px;
+}
+.item-inner-one,.item-inner-two,
+.item-inner-three,.item-inner-four{
+   width: 300px;
+  height: 150px;
+  border:1px solid #ccc;
+}
+
+.item-inner-one li ul li,.item-inner-two li ul li,
+.item-inner-three li ul li,.item-inner-four li ul li{
+  float: left;
+  width: 50px;
+  height: 8px;
+  margin:20px 0 0  25px;
+
+}
+.item-inner-two li ul li,.item-inner-three li ul li{
+  width: 75px;
+  height: 8px;
+}
+.item-inner-four li ul li{
+  width: 120px;
+  height: 8px;
+}
